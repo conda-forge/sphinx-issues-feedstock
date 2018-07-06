@@ -14,14 +14,15 @@ Summary: A Sphinx extension for linking to your project's issue tracker
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/sphinx-issues-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/sphinx-issues-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/sphinx-issues-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/sphinx-issues-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/sphinx-issues-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/sphinx-issues-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/sphinx-issues-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/sphinx-issues-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/sphinx-issues/badges/version.svg)](https://anaconda.org/conda-forge/sphinx-issues)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/sphinx-issues/badges/downloads.svg)](https://anaconda.org/conda-forge/sphinx-issues)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-sphinx--issues-green.svg)](https://anaconda.org/conda-forge/sphinx-issues) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/sphinx-issues.svg)](https://anaconda.org/conda-forge/sphinx-issues) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/sphinx-issues.svg)](https://anaconda.org/conda-forge/sphinx-issues) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/sphinx-issues.svg)](https://anaconda.org/conda-forge/sphinx-issues) |
 
 Installing sphinx-issues
 ========================
