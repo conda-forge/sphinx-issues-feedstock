@@ -1,4 +1,4 @@
-{% set version = "1.0.0" %}
+{% set version = "1.1.0" %}
 
 package:
   name: sphinx-issues
@@ -7,7 +7,7 @@ package:
 source:
   fn: sphinx-issues-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/s/sphinx-issues/sphinx-issues-{{ version }}.tar.gz
-  md5: 975f77626ead31de2d39484d42c8c4e5
+  md5: 417b538543f57dd69c2ddca0e7d23c30
 
 build:
   noarch: python
