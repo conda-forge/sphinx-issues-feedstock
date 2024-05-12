@@ -1,4 +1,4 @@
-{% set version = "1.2.0" %}
+{% set version = "3.0.1" %}
 
 package:
   name: sphinx-issues
@@ -7,12 +7,12 @@ package:
 source:
   fn: sphinx-issues-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/s/sphinx-issues/sphinx-issues-{{ version }}.tar.gz
-  md5: 0f40881c9c95c40c6e752abce61882cc
+  md5: e2351ac5790c84b8fe9f13da294f69f1
 
 build:
   noarch: python
   number: 0
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
@@ -31,7 +31,7 @@ about:
   home: https://github.com/sloria/sphinx-issues
   license: MIT
   license_file: LICENSE
-  summary: "A Sphinx extension for linking to your project's issue tracker"
+  summary: A Sphinx extension for linking to your project's issue tracker
 
 extra:
   recipe-maintainers:
