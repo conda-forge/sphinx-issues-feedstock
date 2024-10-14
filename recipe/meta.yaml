@@ -1,4 +1,4 @@
-{% set version = "1.2.0" %}
+{% set version = "5.0.0" %}
 
 package:
   name: sphinx-issues
@@ -7,7 +7,7 @@ package:
 source:
   fn: sphinx-issues-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/s/sphinx-issues/sphinx-issues-{{ version }}.tar.gz
-  md5: 0f40881c9c95c40c6e752abce61882cc
+  sha256: 192e43cf071ed7aead401cd14fd15076ecb0866238c095d672180618740c6bae
 
 build:
   noarch: python
@@ -16,11 +16,11 @@ build:
 
 requirements:
   host:
+    - flit-core <4
     - pip
-    - python
-    - setuptools
+    - python >=3.9
   run:
-    - python
+    - python >=3.9
     - sphinx
 
 test:
