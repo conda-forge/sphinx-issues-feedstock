@@ -146,4 +146,6 @@ Feedstock Maintainers
 =====================
 
 * [@asmeurer](https://github.com/asmeurer/)
+* [@m-rossi](https://github.com/m-rossi/)
+* [@zaneselvans](https://github.com/zaneselvans/)
 
