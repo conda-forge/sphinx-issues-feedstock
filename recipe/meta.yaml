@@ -1,5 +1,5 @@
 {% set name = "sphinx-issues" %}
-{% set version = "5.0.0" %}
+{% set version = "5.0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name.replace("-", "_") }}/{{ name.replace("-", "_") }}-{{ version }}.tar.gz
-  sha256: 192e43cf071ed7aead401cd14fd15076ecb0866238c095d672180618740c6bae
+  sha256: 6da131d4545af00be4b48ec7c4086ea82c1371a05116bbe5779f57cff34bf16a
 
 build:
   noarch: python
-  script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation 
-  number: 1
+  script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
+  number: 0
 
 requirements:
   host:
