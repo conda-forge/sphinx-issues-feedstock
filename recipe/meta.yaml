@@ -21,7 +21,7 @@ requirements:
     - python {{ python_min }}
   run:
     - python >={{ python_min }}
-    - sphinx
+    - sphinx >=8.1.0
 
 test:
   imports:
